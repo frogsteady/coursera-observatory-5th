@@ -59,7 +59,7 @@ object Visualization {
           (result._1 + temp / Math.pow(distance, power), result._2 + 1 / Math.pow(distance, power))
         }
 
-        closestLocationOpt.map(_._2)getOrElse(numerator / denominator)
+        closestLocationOpt.map(_._2).getOrElse(numerator / denominator)
     }
   }
 

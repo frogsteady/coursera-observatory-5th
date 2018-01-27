@@ -37,7 +37,7 @@ object Manipulation {
     grid: GridLocation => {
       val currentTemperature = makeGrid(temperatures)(grid)
       val normalTemperature = normals(grid)
-      currentTemperature - normalTemperature
+      normalTemperature - currentTemperature
     }
 
   }
