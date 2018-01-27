@@ -1,0 +1,7 @@
+.idea
+capstone-ui
+project
+scalastyle
+src/main/resources
+*.sbt
+*.html
